@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listaPol"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNazwaPola"
+            android:text="Nazwa pola"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nazwaPolaTextView"
+            android:text="Nazwa pola"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulRodzajUprawy"
+            android:text="Rodzaj uprawy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rodzajUprawyTextView"
+            android:text="Rodzaj uprawy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tyrulPowierzchniaPola"
+            android:text="Powierzchnia pola"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/powierzchniaPolaTextView"
+            android:text="Powierzchnia pola"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytultDataZasiewu"
+            android:text="Data zasiewu"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dataDodaniaTextView"
+            android:text="Data zasiewu"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNawozOrganiczny"
+            android:text="Nawóz organiczny"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nawozOrganicznyTextView"
+            android:text="Nawóz organiczny"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNawozAzzotowy"
+            android:text="Nawóz azotowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nawozAzotowyTextView"
+            android:text="Nawóz azotowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNawozFosforowy"
+            android:text="Nawóz fosforowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nawozFosforowyTextView"
+            android:text="Nawóz fosforowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNawozPotasowy"
+            android:text="Nawoz potasowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nawozPotasowyTextView"
+            android:text="Nawóz potasowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNawozSiarkowoMagnezowy"
+            android:text="Nawoz siarkowo magnezowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nawozSiarkowoMagnezowyTextView"
+            android:text="Nawóz siarkowo magnezowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/nazwaPolaTextView"-->
+            <!--android:text="Za rogiem"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/rodzajUprawyTextView"-->
+            <!--android:text="Pszeniaca"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/powierzchniaPolaTextView"-->
+            <!--android:text="10 ha"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/dataDodaniaTextView"-->
+            <!--android:text="10/10/2020"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/nawozOrganicznyTextView"-->
+            <!--android:text="Gnojowica"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/nawozAzotowyTextView"-->
+            <!--android:text="Mocznik"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/nawozFosforowyTextView"-->
+            <!--android:text="Mączka fosforytowa"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/nawozPotasowyTextView"-->
+            <!--android:text="Sól potasowa"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/nawozSiarkowoMagnezowyTextView"-->
+            <!--android:text="Siarka granulowana"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/poleIdTextView"-->
+            <!--android:text="7y8whyhe"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/rolnictwo_tlo"
+    tools:context=".CreateFieldActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tytulAplikacjiTv"
+        android:text="Organizer Rolnika"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rodzajUprawyEtCreateField"
+        android:hint="Nazwa pola"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nazwaPolaEtCreateField"
+        android:hint="Rodzaj uprawy"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/powierzchniaPolaEtCreateField"
+        android:hint="Powierzchnia pola"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dodajPoleBtnCreateField"
+        android:text="Dodajpole"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wyswietlListeBtnCreateField"
+        android:text="Wyświetl listę"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+</LinearLayout>

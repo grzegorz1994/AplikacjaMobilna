@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rolnictwo_tlo"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".OchronaRoslinActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:padding="20dp"
+        android:id="@+id/scrollView1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/srodekGrzybobujczyTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Środek grzybobójczy"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"/>
+
+            <Spinner
+                android:id="@+id/srodekGrzybobojczySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:entries="@array/srodki_grzybobujcze" />
+
+            <TextView
+                android:id="@+id/srodekOwadobojczyTextViewTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Środek owadobójczy"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"/>
+
+            <Spinner
+                android:id="@+id/srodekOwadobojczySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:entries="@array/srodki_owadobojcze" />
+
+            <TextView
+                android:id="@+id/srodekChwastobojczyTextViewTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Środek chwastobójczy"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"/>
+
+            <Spinner
+                android:id="@+id/srodekChwastobojczySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:entries="@array/srodki_owadobojcze" />
+
+            <TextView
+                android:id="@+id/srodekRegulatorWzrostuTextViewTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stymulator wzrostu"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"/>
+
+            <Spinner
+                android:id="@+id/srodkiStymulujaceSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:entries="@array/regulatory_wzrostu" />
+
+            <TextView
+                android:id="@+id/srodekZwabiajacyTextViewTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Środek zwabiający"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"/>
+
+            <Spinner
+                android:id="@+id/srodkiZwabiajaceSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:entries="@array/srodki_zwabiajace" />
+
+            <TextView
+                android:id="@+id/srodekOdstraszajacyTextViewTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Środek odstraszajacy"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"/>
+
+            <Spinner
+                android:id="@+id/srodkiOdstraszajaceSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:entries="@array/srodki_odstraszajace" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zapisz_oprysk_Btn"
+        android:text="Dodaj oprysk"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+</LinearLayout>

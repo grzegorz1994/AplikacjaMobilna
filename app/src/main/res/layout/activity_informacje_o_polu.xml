@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rolnictwo_tlo"
+    android:fillViewport="true"
+    tools:context=".InformacjeOPolu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNazwaPola"
+            android:text="Nazwa pola"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nazwaPolaTextView"
+            android:text="Nazwa pola"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulRodzajUprawy"
+            android:text="Rodzaj uprawy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rodzajUprawyTextView"
+            android:text="Rodzaj uprawy"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tyrulPowierzchniaPola"
+            android:text="Powierzchnia pola"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/powierzchniaPolaTextView"
+            android:text="Powierzchnia pola"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytultDataZasiewu"
+            android:text="Data zasiewu"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dataDodaniaTextView"
+            android:text="Data zasiewu"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNawozOrganiczny"
+            android:text="Nawóz organiczny"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nawozOrganicznyTextView"
+            android:text="Nawóz organiczny"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNawozAzzotowy"
+            android:text="Nawóz azotowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nawozAzotowyTextView"
+            android:text="Nawóz azotowy"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNawozFosforowy"
+            android:text="Nawóz fosforowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nawozFosforowyTextView"
+            android:text="Nawóz fosforowy"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNawozPotasowy"
+            android:text="Nawoz potasowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nawozPotasowyTextView"
+            android:text="Nawóz potasowy"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNawozSiarkowoMagnezowy"
+            android:text="Nawoz siarkowo magnezowy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nawozSiarkowoMagnezowyTextView"
+            android:text="Nawóz siarkowo magnezowy"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulSrodkiGrzybobojcze"
+            android:text="Środek grzybobójczy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/srodekGrzybobojczyTextView"
+            android:text="Nazwa oprysku"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulSrodkiOwadobojcze"
+            android:text="Środek owadobójczy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/srodekOwadobojczyTextView"
+            android:text="Nazwa oprysku"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulSrodkiChwastobojcze"
+            android:text="Środek chwastobójczy"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/srodekChwastobojczyTextView"
+            android:text="Nazwa oprysku"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulSrodkiStymulujace"
+            android:text="Stymulator wzrostu"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/srodekStymulujacyTextView"
+            android:text="Nazwa oprysku"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulSrodkiZwabiajace"
+            android:text="Środek zwabiający"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/srodekZwabiajacyTextView"
+            android:text="Nazwa środka"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulSrodkiOdstraszajace"
+            android:text="Środek odstraszający"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/srodekOdstraszajacyTextView"
+            android:text="Nazwa środka"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notatka"
+            android:text="Notatka"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tytulNotakiTV"
+            android:text="Tytuł notatki"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trescNotakiTV"
+            android:text="Treść notatki"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    </LinearLayout>
+
+</ScrollView>

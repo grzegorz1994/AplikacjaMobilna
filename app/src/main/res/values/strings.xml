@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">Organizer Rolnika</string>
+    <string name="zaloguj_logowanie">Zaloguj</string>
+    <string name="zarejestruj_rejestracja">Zarejestruj</string>
+    <string name="zapomniales_hasla_przypomnij_tutaj">Zapomniałeś Hasła? Przypomnij tutaj</string>
+    <string name="nie_masz_konta_zarejestruj_tutaj">Nie masz konta? Zarejestruj tutaj</string>
+    <string name="masz_konto_zaloguj_sie_tutaj">Masz konto? Zaloguj się tutaj</string>
+    <string name="dodaj_pole_AddField">Dodaj pole</string>
+    <string name="dodaj_notatke_button">Dodaj notatke</string>
+    <string name="wyswietl_pola_button">Wyświetl pola</string>
+
+    <string-array name="nawoz_naturalny">
+        <item>Wybierz nawóz</item>
+        <item>Obornik</item>
+        <item>Gnojówka</item>
+        <item>Gnojowica</item>
+        <item>Pomiot ptasi</item>
+    </string-array>
+
+    <string-array name="nawoz_azotowy">
+        <item></item>
+        <item>Mocznik</item>
+        <item>Saletra amonowa</item>
+        <item>Saletra potasowa</item>
+        <item>Saletra wapniowa</item>
+        <item>Saletrzak</item>
+        <item>Siarczan amonu</item>
+    </string-array>
+
+    <string-array name="nawoz_fosforowy">
+        <item></item>
+        <item>Mączka fosforytowa</item>
+        <item>Superfosfat granulowany</item>
+        <item>Superfosfat pylisty</item>
+        <item>Superfosfat wzbogacony</item>
+    </string-array>
+
+    <string-array name="nawoz_potasowy">
+        <item></item>
+        <item>Kainit magnezowy</item>
+        <item>Kalimagnezja</item>
+        <item>Siarczan potasu</item>
+        <item>Sól potasowa</item>
+    </string-array>
+
+    <string-array name="nawoz_siarkowy_i_magnezowy">
+        <item></item>
+        <item>Siarka granulowana</item>
+        <item>Kizeryt granulowany</item>
+        <item>Siarczan magnezu</item>
+    </string-array>
+
+    <string-array name="nawoz_wapniowy">
+        <item></item>
+        <item>Wapno magnezowe</item>
+        <item>Wapno węglanowe</item>
+        <item>Wapno tlenkowe</item>
+    </string-array>
+
+    <string-array name="srodki_grzybobujcze">
+        <item></item>
+        <item>Signum 33 WG BASF</item>
+        <item>Cuproxat 345 SC Nufarm</item>
+        <item>Carial Star 500 SC Syngenta</item>
+        <item>Scorpion 325 SC Syngenta</item>
+        <item>Toprex 375 SC Syngenta</item>
+        <item>Kendo 50 EW Sumi Agro</item>
+        <item>Miedzian Extra 350 SC Synthos</item>
+        <item>Kaptan zawiesinowy 50 WP Synthos</item>
+        <item>Zato 50 WG Bayer</item>
+        <item>Syllit 65 WP Arysta</item>
+        <item>Funaben Plus 03 PA Fregata</item>
+        <item>Tarcza Łan 250 EW 20 L Ciech</item>
+        <item>Tilmor 240 EC Bayer</item>
+        <item>Priaxor EC Basf</item>
+        <item>Discus 500WG BASF</item>
+    </string-array>
+
+    <string-array name="srodki_owadobojcze">
+        <item></item>
+        <item>Acaramik 018 EC 1L abamektyna</item>
+        <item>Actellic 500 EC 100ML</item>
+        <item>Affirm 095 SG 1KG</item>
+        <item>Afik 1L</item>
+        <item>Akarol 770 EC 10L (olej parafinowy)</item>
+        <item>Apis 200 SE 1L acetamipryd</item>
+        <item>Belem 0,8 MG 12KG</item>
+        <item>Benevia 100 OD 1L</item>
+        <item>Biscaya 240 OD 1L</item>
+        <item>Bulldock 025 EC 0,25L</item>
+        <item>Carnadine 200 SE 1L acetamipryd</item>
+        <item>Carpovirusine Super SC 1L</item>
+        <item>Closer 1L</item>
+        <item>Coragen 200 SC 3L</item>
+        <item>Delegate 0,5KG</item>
+    </string-array>
+
+    <string-array name="srodki_chwastobojcze">
+        <item></item>
+        <item>Activus 400 SC 1L</item>
+        <item>Activus 400 SC 5L</item>
+        <item>Adengo 315 SC 0,5L</item>
+        <item>Adengo 315 SC 5L</item>
+        <item>Agil 100 EC 0,25L</item>
+        <item>Agil S 100 EC 0,5L</item>
+        <item>Agil S 100 EC 1L</item>
+        <item>Agil S 100 EC 5L</item>
+        <item>Agritox Turbo 750 SL 1L</item>
+        <item>Agritox Turbo 750 SL 5L</item>
+        <item>Agrosar 360 SL 10L</item>
+        <item>Agrosar 360 SL 1L zamiennik Randapu</item>
+        <item>Akapit 125 EC 1L</item>
+        <item>Akapit 125 EC 5L</item>
+        <item>Arcade 880 EC 1L</item>
+        <item>Arcade 880 EC 20L</item>
+        <item>Arcade 880 EC 5L</item>
+        <item>Arnold 1L</item>
+        <item>Atlantis 12 OD 0,5L + Biopower 0,5L</item>
+    </string-array>
+
+    <string-array name="regulatory_wzrostu">
+        <item></item>
+        <item>Agrostym 480 SL 1L</item>
+        <item>Antywylegacz Płynny 725 SL 1L</item>
+        <item>Antywylegacz Płynny 725 SL 20L</item>
+        <item>Antywylegacz Płynny 725 SL 5L</item>
+        <item>Asahi SL 20L</item>
+        <item>B-Nine 85 SG 1KG</item>
+        <item>B-Nine 85 SG 350G</item>
+        <item>Cerone 480 SL 1L</item>
+        <item>Cerone 480 SL 5L</item>
+        <item>Corto 10 WG 2,5KG</item>
+        <item>Cuadro 250 EC 1L trineksapak etylu</item>
+        <item>Cuadro 250 EC 5L trineksapak etylu</item>
+        <item>Fixor 100 SL 0,5L</item>
+        <item>Gibb Plus SL 1L</item>
+        <item>MaxCel 5L</item>
+        <item>Medax Max 1KG</item>
+        <item>Medax Max 3KG</item>
+        <item>Mepik 300 SL 1L</item>
+        <item>Mepik 300 SL 5L</item>
+        <item>Moddus 250 EC 1L trineksapak etylu</item>
+        <item>Moddus 250 EC 20L trineksapak etylu</item>
+        <item>Moddus 250 EC 5L trineksapak etylu</item>
+        <item>Moddus Flexi 5L</item>
+        <item>N-Lock 10L - stabilizator azotu</item>
+        <item>Novagib 1L</item>
+        <item>Nu-Film MAX 1L</item>
+        <item>Nu-Film Max 5L</item>
+        <item>Oko-Ni WP 5KG</item>
+        <item>Pomonit 050 SL 0.5L</item>
+        <item>Promalin 0,5L</item>
+        <item>Proxanil 450 SC 10L</item>
+        <item>Regalis Plus 10 WG 1,5KG</item>
+        <item>Regulex 10 SG 0,1KG</item>
+        <item>Stabilan 750 SL 1L</item>
+        <item>Stabilan 750 SL 20L</item>
+        <item>Stabilan 750 SL 5L</item>
+        <item>Stiff NT 250 EC 1L trineksapak etylu</item>
+        <item>Stiff NT 250 EC 5L trineksapak etylu</item>
+        <item>Topper 10 ST 100G- 10 tabletek</item>
+    </string-array>
+
+    <string-array name="srodki_zwabiajace">
+        <item></item>
+        <item>Wabik na łasicowate PNL10 25ml</item>
+        <item>Tabletki wabiące karaczany 30szt</item>
+        <item>Feromon ephestia plodia Long Life 10szt</item>
+        <item>Płyn do pułapek na muszki owocówki 200ml</item>
+        <item>Płyn do pułapek na osy i muchy 200ml</item>
+        <item>Płyn do pułapek na muszki 5 L</item>
+        <item>Płyn do pułapek na osy i muchy 4,8L</item>
+        <item>Atraktant pokarmowy na chrząszcze 10szt</item>
+        <item>Feromon ephestia elutella</item>
+        <item>Feromon tribolium spp 2szt na trojszyki</item>
+        <item>Moth Suppression - atraktant</item>
+    </string-array>
+
+    <string-array name="srodki_odstraszajace">
+        <item></item>
+        <item>Black Horse Fly Guard żel 300 ml</item>
+        <item>Leovet Phaser Druativ przeciw owadom 500 ml</item>
+        <item>Leovet Phaser Spray przeciw owadom 500 ml</item>
+        <item>Parisol Brummer Control 500 ml</item>
+        <item>Żel na owady Black Horse 500 ml</item>
+    </string-array>
+
+</resources>

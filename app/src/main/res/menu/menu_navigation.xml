@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nawozenie"
+        android:title="Nawożenie"
+        android:icon="@drawable/ic_nawozenie"/>
+
+    <item
+        android:id="@+id/ochrona"
+        android:title="Ochrona"
+        android:icon="@drawable/ic_ochrona"/>
+
+    <item
+        android:id="@+id/notatki"
+        android:title="Notatki"
+        android:icon="@drawable/ic_notatki"/>
+
+</menu>

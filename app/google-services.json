@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1041973070422",
+    "firebase_url": "https://organizerrolnika.firebaseio.com",
+    "project_id": "organizerrolnika",
+    "storage_bucket": "organizerrolnika.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041973070422:android:581517fa1ab9b4d4c649f7",
+        "android_client_info": {
+          "package_name": "com.example.organizerrolnika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041973070422-h09bl7semd28jrvq06so4ethg0m252rl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.organizerrolnika",
+            "certificate_hash": "bbcdb7a5020b70a957c1f2c122fb280912825c4c"
+          }
+        },
+        {
+          "client_id": "1041973070422-1huka82i2bc62vs28bcu5nka86dp0ugi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKUYizXArChkqepRVFAC5Csn50QWZcyXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041973070422-1huka82i2bc62vs28bcu5nka86dp0ugi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
