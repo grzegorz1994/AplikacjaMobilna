@@ -38,6 +38,7 @@ public class MenuPolaActivity extends AppCompatActivity implements View.OnClickL
         mNowyZabiegBtn.setOnClickListener(this);
         mInformacjeOPoluBtn.setOnClickListener(this);
         mNotatkiDoPolaBtn.setOnClickListener(this);
+        mPowiadomieniaBtn.setOnClickListener(this);
 
     }
 
@@ -65,6 +66,11 @@ public class MenuPolaActivity extends AppCompatActivity implements View.OnClickL
             Intent intentP = new Intent(MenuPolaActivity.this, NotatkiDoPola.class);
             intentP.putExtra("KEY", key);
             startActivity(intentP);
+        }
+        if (v == mPowiadomieniaBtn){
+            Intent intentZ = new Intent(MenuPolaActivity.this, PowiadomieniaActivity.class);
+            intentZ.putExtra("KEY", key);
+            startActivity(intentZ);
         }
     }
 }

@@ -4,11 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:background="@drawable/rolnictwo_tlo"
     tools:context=".PowiadomieniaActivity">
 
+    <EditText
+        android:id="@+id/edittext_wiadomosc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz wiadomość"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
 
+    <Button
+        android:id="@+id/btn_godzina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Wybierz godzine"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_below="@id/edittext_wiadomosc"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
 
+    <Button
+        android:id="@+id/btn_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Wybierz date"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_below="@id/btn_godzina"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/btn_ustaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_data"
+        android:text="Ustaw"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"/>
 
 
 </RelativeLayout>
