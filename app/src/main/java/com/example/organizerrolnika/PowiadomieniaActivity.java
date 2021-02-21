@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.speech.RecognizerIntent;
 import android.support.annotation.Nullable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -37,6 +38,12 @@ public class PowiadomieniaActivity extends AppCompatActivity implements View.OnC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_powiadomienia);
 
+        ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
+        actionBar.setTitle("Tworzenie powiadomienia");
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayShowCustomEnabled(true);
+
         btn_godzina = findViewById(R.id.btn_godzina);
         btn_data = findViewById(R.id.btn_data);
         btn_ustaw = findViewById(R.id.btn_ustaw);
@@ -44,6 +51,12 @@ public class PowiadomieniaActivity extends AppCompatActivity implements View.OnC
         btn_godzina.setOnClickListener(this);
         btn_data.setOnClickListener(this);
         btn_ustaw.setOnClickListener(this);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return super.onSupportNavigateUp();
     }
 
     @Override
