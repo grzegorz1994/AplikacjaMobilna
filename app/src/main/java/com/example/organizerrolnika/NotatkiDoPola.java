@@ -55,6 +55,12 @@ public class NotatkiDoPola extends AppCompatActivity implements View.OnClickList
         dodajNotatke.setOnClickListener(this);
     }
 
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return super.onSupportNavigateUp();
+    }
+
     private void addNotatka(){
         String TytulNotatki = wpiszTytul.getText().toString().trim();
         String TrescNotatki = wpiszTresc.getText().toString().trim();
