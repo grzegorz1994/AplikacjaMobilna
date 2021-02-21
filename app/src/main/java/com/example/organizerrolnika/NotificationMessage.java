@@ -1,5 +1,6 @@
 package com.example.organizerrolnika;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -15,5 +16,9 @@ public class NotificationMessage extends AppCompatActivity {
         textView = findViewById(R.id.tv_message);
         Bundle bundle = getIntent().getExtras();
         textView.setText(bundle.getString("message"));
+
+        ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
+        actionBar.setTitle("Treść powiadomienia");
     }
 }
