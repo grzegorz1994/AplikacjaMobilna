@@ -40,6 +40,8 @@ public class NotatkiDoPola extends AppCompatActivity implements View.OnClickList
         ActionBar actionBar = getSupportActionBar();
         assert actionBar != null;
         actionBar.setTitle("Dodanie Notatki");
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayShowHomeEnabled(true);
 
         database = FirebaseDatabase.getInstance();
         databaseReference = database.getReference();
