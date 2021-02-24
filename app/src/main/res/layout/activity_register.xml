@@ -48,6 +48,8 @@
         android:id="@+id/zarejestrujBtnRejestracja"
         android:text="@string/zarejestruj_rejestracja"
         android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         style="@style/Widget.AppCompat.Button.Colored"/>

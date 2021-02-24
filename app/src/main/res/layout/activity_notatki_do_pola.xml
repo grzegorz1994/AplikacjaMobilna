@@ -36,6 +36,8 @@
         android:layout_gravity="center_horizontal"
         android:textSize="20sp"
         android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
         style="@style/Base.Widget.AppCompat.Button.Colored"/>
 
 </LinearLayout>

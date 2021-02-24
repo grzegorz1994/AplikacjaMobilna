@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:background="@android:color/darker_gray"
         android:padding="5dp">
 
         <TextView
@@ -20,6 +21,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/rodzajUprawyTextView"
             android:text="Pszeniaca"
+            android:textStyle="italic"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -27,6 +29,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/nazwaPolaTextView"
             android:text="Za rogiem"
+            android:textStyle="italic"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -34,6 +37,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/powierzchniaPolaTextView"
             android:text="10 ha"
+            android:textStyle="italic"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -41,6 +45,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/dataDodaniaTextView"
             android:text="10/10/2020"
+            android:textStyle="italic"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
     </LinearLayout>

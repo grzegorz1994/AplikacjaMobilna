@@ -31,10 +31,10 @@ public class PoleInfoAdapter extends ArrayAdapter<Pole> {
         TextView pstrDate = (TextView) listView.findViewById(R.id.dataDodaniaTextView);
 
         Pole pole = poleList.get(position);
-        pNazwaPola.setText(pole.getNazwaPola());
-        pRodzajUprawy.setText(pole.getRodzajUprawy());
-        pPowierzchniaPola.setText(pole.getPowierzchniaPola());
-        pstrDate.setText(pole.getDataDodania());
+        pNazwaPola.setText("uprawa: " + pole.getNazwaPola());
+        pRodzajUprawy.setText("nazwa pola: " + pole.getRodzajUprawy());
+        pPowierzchniaPola.setText("powierzchnia: " + pole.getPowierzchniaPola());
+        pstrDate.setText("utworzono: " + pole.getDataDodania());
 
         return listView;
     }

@@ -14,7 +14,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/nawozenieBtn"
         android:text="Nawożenie"
-        android:textSize="25sp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
         android:layout_marginTop="40dp"
         style="@style/Base.Widget.AppCompat.Button.Colored"/>
 
@@ -23,7 +25,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/ochronaBtn"
         android:text="Ochrona"
-        android:textSize="25sp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
         android:layout_marginTop="40dp"
         style="@style/Base.Widget.AppCompat.Button.Colored"/>
 

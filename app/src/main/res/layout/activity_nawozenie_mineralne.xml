@@ -15,7 +15,9 @@
         android:layout_height="wrap_content"
         android:text="Nawóz azotowy"
         android:textAlignment="center"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:textColor="#000"/>
 
     <Spinner
         android:id="@+id/nawozAzotowySpinner"
@@ -33,7 +35,8 @@
         android:layout_marginTop="15dp"
         android:text="Nawóz fosforowy"
         android:textAlignment="center"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="#000"/>
 
     <Spinner
         android:id="@+id/nawozFosforowySpinner"
@@ -51,7 +54,8 @@
         android:layout_marginTop="15dp"
         android:text="Nawóz potasowy"
         android:textAlignment="center"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="#000"/>
 
     <Spinner
         android:id="@+id/nawozPotasowySpinner"
@@ -69,7 +73,8 @@
         android:layout_marginTop="15dp"
         android:text="Nawóz siarkowy i magnezowy"
         android:textAlignment="center"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="#000"/>
 
     <Spinner
         android:id="@+id/nawozSiarkowyMagnezowySpinner"
@@ -79,33 +84,17 @@
         android:layout_marginTop="15dp"
         android:entries="@array/nawoz_siarkowy_i_magnezowy" />
 
-    <TextView
-        android:id="@+id/nawozWapniowyTv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/nawozSiarkowyMagnezowySpinner"
-        android:layout_marginTop="15dp"
-        android:text="Nawóz wapniowy"
-        android:textAlignment="center"
-        android:textSize="20sp" />
-
-    <Spinner
-        android:id="@+id/nawozWapniowySpinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/nawozWapniowyTv"
-        android:layout_marginTop="15dp"
-        android:entries="@array/nawoz_wapniowy" />
-
 
     <Button
         android:id="@+id/zapisz_nawoz_mineralnyBtn"
         style="@style/Base.Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nawozWapniowySpinner"
+        android:layout_below="@id/nawozSiarkowyMagnezowySpinner"
         android:layout_marginTop="30dp"
         android:text="Zapisz"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
         android:textSize="20sp" />
 
 </RelativeLayout>

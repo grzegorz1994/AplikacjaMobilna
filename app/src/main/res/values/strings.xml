@@ -10,7 +10,7 @@
     <string name="wyswietl_pola_button">Wyświetl pola</string>
 
     <string-array name="nawoz_naturalny">
-        <item>Wybierz nawóz</item>
+        <item></item>
         <item>Obornik</item>
         <item>Gnojówka</item>
         <item>Gnojowica</item>

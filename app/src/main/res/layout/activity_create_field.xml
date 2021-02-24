@@ -56,6 +56,8 @@
         android:layout_gravity="center_horizontal"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
         style="@style/Base.Widget.AppCompat.Button.Colored"/>
 
     <Button
@@ -66,6 +68,8 @@
         android:layout_gravity="center_horizontal"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
         style="@style/Base.Widget.AppCompat.Button.Colored"/>
 
 </LinearLayout>

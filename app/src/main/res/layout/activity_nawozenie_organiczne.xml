@@ -9,11 +9,22 @@
     android:gravity="center"
     tools:context=".NawozenieOrganiczneActivity">
 
+    <TextView
+        android:id="@+id/nawozFosforowyTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wybierz nawóz organiczny"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_above="@id/nawozOrganicznySpinner"
+        android:textColor="#000"/>
+
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/nawozOrganicznySpinner"
         android:layout_centerVertical="true"
+        android:layout_marginTop="20sp"
         android:entries="@array/nawoz_naturalny"/>
 
     <Button
@@ -24,6 +35,8 @@
         android:textSize="20sp"
         android:layout_below="@id/nawozOrganicznySpinner"
         android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
         style="@style/Base.Widget.AppCompat.Button.Colored"/>
 
 </RelativeLayout>

@@ -1,6 +1,5 @@
 package com.example.organizerrolnika;
 
-import android.support.annotation.NonNull;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,11 +11,8 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 public class NawozenieMineralneActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -25,7 +21,6 @@ public class NawozenieMineralneActivity extends AppCompatActivity implements Vie
     private Spinner nawozFosforowySpinner;
     private Spinner nawozPotasowySpinner;
     private Spinner nawozSiarkowyIMagnezowy;
-    private Spinner nawozWapniowySpinner;
     private DatabaseReference databaseReference;
     private FirebaseDatabase database;
     private FirebaseAuth mAuth;
@@ -44,6 +39,7 @@ public class NawozenieMineralneActivity extends AppCompatActivity implements Vie
         }
 
         ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
         actionBar.setTitle("Wybierz nawóz");
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);
@@ -62,7 +58,6 @@ public class NawozenieMineralneActivity extends AppCompatActivity implements Vie
         nawozFosforowySpinner = (Spinner) findViewById(R.id.nawozFosforowySpinner);
         nawozPotasowySpinner = (Spinner) findViewById(R.id.nawozPotasowySpinner);
         nawozSiarkowyIMagnezowy = (Spinner) findViewById(R.id.nawozSiarkowyMagnezowySpinner);
-        nawozWapniowySpinner = (Spinner) findViewById(R.id.nawozWapniowySpinner);
         zapiszNawozMineralny.setOnClickListener(this);
     }
 
@@ -72,7 +67,6 @@ public class NawozenieMineralneActivity extends AppCompatActivity implements Vie
         String nawozFosforowy = nawozFosforowySpinner.getSelectedItem().toString();
         String nawozPotasowy = nawozPotasowySpinner.getSelectedItem().toString();
         String nawozSiarkowyMagnezowy = nawozSiarkowyIMagnezowy.getSelectedItem().toString();
-        //String nawozWapniowy = nawozWapniowySpinner.getSelectedItem().toString();
 
         if (!TextUtils.isEmpty(nawozAzotowy) || !TextUtils.isEmpty(nawozFosforowy) || !TextUtils.isEmpty(nawozPotasowy) ||
                 !TextUtils.isEmpty(nawozSiarkowyMagnezowy)){

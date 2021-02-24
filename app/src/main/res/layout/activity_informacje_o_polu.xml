@@ -31,7 +31,7 @@
             android:gravity="center_horizontal"
             android:textColor="#000"
             android:textSize="25sp"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -52,7 +52,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -73,7 +73,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -94,7 +94,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -114,7 +114,7 @@
             android:text="Nawóz organiczny"
             android:gravity="center_horizontal"
             android:textSize="25sp"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textColor="#000"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
@@ -136,7 +136,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -157,7 +157,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -178,7 +178,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -199,7 +199,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -220,7 +220,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -241,7 +241,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -262,7 +262,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -283,7 +283,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -304,7 +304,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -325,7 +325,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -346,7 +346,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="italic"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
@@ -357,7 +357,7 @@
             android:gravity="center_horizontal"
             android:textSize="25sp"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
     </LinearLayout>

@@ -50,6 +50,8 @@
         android:textSize="20sp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
         style="@style/Widget.AppCompat.Button.Colored"/>
 
     <TextView

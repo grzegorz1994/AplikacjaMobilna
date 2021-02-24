@@ -17,7 +17,8 @@
         android:layout_marginTop="40dp"
         android:fontFamily="monospace"
         android:text="Organiczne"
-        android:textSize="25sp" />
+        android:textSize="20sp"
+        android:textStyle="italic"/>
 
     <Button
         android:id="@+id/mineralneBtn"
@@ -27,6 +28,7 @@
         android:layout_marginTop="40dp"
         android:fontFamily="monospace"
         android:text="Mineralne"
-        android:textSize="25sp" />
+        android:textSize="20sp"
+        android:textStyle="italic"/>
 
 </LinearLayout>

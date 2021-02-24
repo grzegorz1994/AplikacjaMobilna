@@ -17,7 +17,6 @@ public class Pole {
     private String opryskRegulatoryWzrostu;
     private String opryskAtraktanty;
     private String opryskRepelenty;
-    //private String nawozWapniowy;
     private String poleId;
     private String tytulNotatki;
     private String trescNotatki;
@@ -37,7 +36,6 @@ public class Pole {
         this.nawozFosforowy = nawozFosforowy;
         this.nawozPotasowy = nawozPotasowy;
         this.nawozSiarkowyMagnezowy = nawozSiarkowyMagnezowy;
-        //this.nawozWapniowy = nawozWapniowy;
     }
 
     public Pole(String opryskFungicydy, String opryskInsektycydy, String opryskHerbicydy, String opryskRegulatoryWzrostu, String opryskAtraktanty, String opryskRepelenty) {
@@ -89,10 +87,6 @@ public class Pole {
     public String getNawozSiarkowyMagnezowy() {
         return nawozSiarkowyMagnezowy;
     }
-
-    /*public String getNawozWapniowy() {
-        return nawozWapniowy;
-    }*/
 
     public String getPoleId() {
         return poleId;
